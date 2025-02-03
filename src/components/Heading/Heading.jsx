@@ -8,7 +8,7 @@ const Heading = () => {
     <div className='Heading_parent'>
 
  <Timing/> 
- <h1>To-do</h1>
+ 
 
 <Weather/>
 
