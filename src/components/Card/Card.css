@@ -13,3 +13,9 @@
     display: grid;
     margin-top: 15px;
  }
+
+ .completed {
+   text-decoration: line-through;
+   opacity: 0.6;
+ }
+ 

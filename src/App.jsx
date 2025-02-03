@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import Heading from "./components/Heading/Heading";
 import Inputs from "./components/Inputs/Inputs";
-import Categories from "./components/Categories/Categories";
+ 
 import Card from "./components/Card/Card";
 import "./App.css";
 
@@ -68,7 +68,7 @@ const App = () => {
           handleDateChange={handleDateChange}
           addTask={addTask}
         />
-        <Categories />
+ 
         <Card newTask={newTask} />
       </div>
     </div>
