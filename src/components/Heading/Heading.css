@@ -1,0 +1,13 @@
+.Heading_parent{
+    
+    justify-content: space-around;
+ 
+    display: flex;
+  
+}
+h1{
+    font-size:30px;
+    color:chartreuse;
+ 
+    
+}

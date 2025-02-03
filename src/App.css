@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Signika:wght@300..700&family=Sofia+Sans:ital,wght@0,1..1000;1,1..1000&display=swap');
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Signika";
+}
+
+body {
+	background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+	background-size: 400% 400%;
+	animation: gradient 10s ease infinite;
+	height: 100%;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+.blurred-background {
+	-webkit-box-shadow: 3px 7px 37px 3px rgba(222, 9, 222, 0.098);
+	-moz-box-shadow: 3px 7px 37px 3px rgba(222,9,222,0.93);
+	box-shadow: 3px 7px 37px 3px rgba(16, 2, 16, 0.93);
+	padding: 10px;
+	width: 96%;
+	height: 100%;
+	backdrop-filter: blur(40px); /* Adjust the blur intensity as needed */
+	background-color: rgba(255, 255, 255, 0.256); /* Adjust transparency as needed */
+	 border-radius: 30px;
+  }
+  .parent{
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 auto;
+	height: 40%;
+  }

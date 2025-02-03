@@ -1,0 +1,54 @@
+ .parent_form {
+ 
+    padding: 20px;
+    gap: 30px;
+    margin: 0 auto;
+
+}
+ 
+input[type="text"], input[type="datetime-local"], select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ddd; /* Light border */
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  input[type="text"]:focus, input[type="datetime-local"]:focus, select:focus {
+  
+    outline: none;  
+    border: 2px solid black;
+  }
+
+
+
+/* Task and Description inputs */
+.Task, .Description {
+    background-color: #fff;
+  }
+  
+  /* Category Dropdown */
+  .Category {
+    background-color: #fff;
+  }
+  
+  /* Button Styling */
+  button {
+    padding: 10px 20px;
+    background-color: #f4ea2c;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+    margin-left: 100px;
+    margin-top: 15px;
+    
+ 
+  }
+  
+  button:hover {
+    background-color: #fe0000; /* Darker green on hover */
+  }
