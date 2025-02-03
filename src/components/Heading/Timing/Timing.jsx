@@ -41,7 +41,7 @@ useEffect(() => {
     <div className='PArent' >{dayName+"," }
     
     <br/>
- {formattedDate} {","} <br/> {Time}</div>
+ {formattedDate}  <br/> {Time}</div>
   )
 }
 
