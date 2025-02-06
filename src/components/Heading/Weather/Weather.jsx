@@ -64,7 +64,7 @@ useEffect(() => {
  
 }, [location])
 
- console.log(Weather)
+ 
 
   return (
 
