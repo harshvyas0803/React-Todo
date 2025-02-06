@@ -1,21 +1,36 @@
-.Card_p{
-   margin: 20px ;
+.Card_p {
+   margin: 20px;
+}
 
+.card {
+   background: rebeccapurple;
+   border-radius: 30px;
+   padding: 20px;
+   display: grid;
+   margin-top: 15px;
+   cursor: grab;  /* Shows a drag cursor when hovering */
+   transition: transform 0.2s ease;  /* Smooth transition during dragging */
+}
 
-} 
- 
- 
- .card{
+.card:active {
+   cursor: grabbing;  /* Shows the grabbing cursor when dragging */
+}
 
-    background: rebeccapurple;
-    border-radius: 30px;
-    padding: 20px;
-    display: grid;
-    margin-top: 15px;
- }
-
- .completed {
+.completed {
    text-decoration: line-through;
    opacity: 0.6;
- }
- 
+}
+
+/* Styling for task list container */
+.task-list {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   padding: 10px;
+}
+
+/* Highlight when a task is being dragged */
+.card.dragging {
+   opacity: 0.5;
+   transform: scale(1.05);  /* Slight zoom to show it's being dragged */
+}
